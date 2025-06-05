@@ -193,6 +193,35 @@ div#footer-text {
 	padding-bottom: 8px;
 }
 
+/*
+#######
+*/
+blockquote {
+    border-left:.5em solid #40AA53;
+    padding: 0 1em;
+    margin-left:0;
+    max-width: 1000px;
+}
+blockquote  cite {
+    font-size:14px;
+    line-height:20px;
+    color:#bfbfbf;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote p {  
+    color: #666;
+    max-width: 1500px;
+}
+
+/*
+#######
+*/
+
+
+
 ul, ol, dl {
 	margin-top: 0.2em;
 	padding-top: 0;
@@ -381,3 +410,13 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+/*
+#######
+*/
+pre .markdown .blockquote {
+    color: #888;
+}
+/*
+#######
+*/
