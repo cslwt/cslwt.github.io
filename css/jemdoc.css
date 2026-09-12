@@ -623,13 +623,17 @@ body {
 
 .content-card {
     position: relative;
-    margin: 0 0 28px;
-    padding: clamp(28px, 3.4vw, 52px) clamp(26px, 4vw, 62px);
+    margin: 0 0 22px;
+    padding: clamp(24px, 2vw, 34px) clamp(26px, 4vw, 62px);
     overflow: hidden;
     border: 1px solid rgba(28, 55, 79, .07);
     border-radius: 26px;
     background: #fff;
     box-shadow: 0 12px 34px rgba(27, 49, 70, .08);
+}
+
+.content-card > :last-child {
+    margin-bottom: 0;
 }
 
 .content-card::before {
@@ -769,9 +773,9 @@ a:focus-visible {
 .research-card {
     display: flex;
     min-width: 0;
-    min-height: 260px;
+    min-height: 0;
     flex-direction: column;
-    padding: clamp(22px, 2.3vw, 32px);
+    padding: clamp(22px, 2vw, 28px);
     border: 1px solid #dfe6ec;
     border-radius: 22px;
     background: #fff;
@@ -780,7 +784,7 @@ a:focus-visible {
 .research-icon {
     width: 34px;
     height: 34px;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
     color: #922823;
     fill: none;
     stroke: currentColor;
@@ -798,7 +802,7 @@ a:focus-visible {
 }
 
 .research-card > p {
-    margin-bottom: 15px;
+    margin-bottom: 0;
     color: #6c7685;
     font-size: .92rem;
     line-height: 1.62;
