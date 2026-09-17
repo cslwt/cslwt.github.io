@@ -831,10 +831,10 @@ a:focus-visible {
     display: inline-flex;
     align-items: baseline;
     gap: 5px;
-    padding: 5px 8px;
-    border: 1px solid rgba(146, 40, 35, .2);
-    border-radius: 8px;
-    background: rgba(146, 40, 35, .025);
+    padding: 5px 10px;
+    border: 1px solid rgba(146, 40, 35, .28);
+    border-radius: 999px;
+    background: rgba(146, 40, 35, .035);
     font-size: .73rem;
     line-height: 1.2;
     white-space: nowrap;
