@@ -934,6 +934,11 @@ blockquote p a {
     box-shadow: none;
 }
 
+.paper .pimg img.wrc-demo-thumb {
+    max-height: none;
+    object-fit: contain;
+}
+
 .paper .ptitle,
 .paper .pauthors,
 .paper .pvenue {
