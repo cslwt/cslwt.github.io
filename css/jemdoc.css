@@ -842,14 +842,14 @@ a:focus-visible {
 
 .research-demo-track {
     display: flex;
-    gap: 14px;
+    gap: 12px;
     width: 100%;
 }
 
 .research-demo-card {
     position: relative;
     display: block;
-    flex: 0 0 clamp(285px, 40%, 430px);
+    flex: 0 0 clamp(250px, 34%, 365px);
     aspect-ratio: 16 / 9;
     overflow: hidden;
     border: 1px solid #dfe6ec;
@@ -1472,7 +1472,7 @@ footer {
     }
 
     .research-demo-card {
-        flex-basis: 82%;
-        min-width: 240px;
+        flex-basis: 76%;
+        min-width: 220px;
     }
 }
